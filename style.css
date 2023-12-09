@@ -1,0 +1,84 @@
+*{
+ margin: 0;
+}
+body{
+  background-color: #9b59b6;
+}
+.main {
+  margin: 8% auto;
+  width: 350px;
+  height: 520px;
+  /* background-color: gray; */
+  border-radius: 10px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 30px;
+}
+.input{
+ padding: 10px; 
+ outline: none;
+ 
+}
+
+.input>input{
+  border: 2px solid #9b59b6 ;
+  width: 320px;
+  height: 100px;
+  font-size: 2rem;
+  text-align: right;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.clearbtn{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: none !important;
+}
+.top{
+  padding: 8px;
+}
+.top>button{
+  padding: 10px;
+  width: 330px;
+  border: 1 px solid white;
+  color:black;
+  font-weight: 900;
+  border-radius: 50px;
+  font-size: 1.75rem;
+  height: 60px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+.small-button{
+  padding: 10px;
+}
+
+.small-button>.center>.btn{
+  padding: 10px;
+  border-radius: 60%;
+  width: 72px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: black;
+  border: 2px solid white;
+  background: white;
+  margin:3px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+.small-button>.center>.operators{
+  padding: 10px;
+  border-radius: 60%;
+  width: 72px;
+  height: 70px;
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: black;
+  border: 2px solid white;
+  /* background: white; */
+  margin:3px;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
